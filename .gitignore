@@ -1,0 +1,28 @@
+# Binários gerados
+/main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Diretórios de build e cache do Go
+/bin/
+pkg/
+*.test
+
+# Diretórios do Go
+vendor/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Docker
+*.env
